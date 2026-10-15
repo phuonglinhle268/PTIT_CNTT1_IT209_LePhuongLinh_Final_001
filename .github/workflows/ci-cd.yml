@@ -4,7 +4,7 @@
 #  - Sinh viên điền các ô ______ tại các dòng TODO.
 #  - job build : kiểm tra student.env -> build & chạy thử -> smoke test -> push image GHCR
 #  - job deploy: SSH vào server -> cập nhật mã nguồn -> pull image -> khởi động lại
-# =============================================================================
+# ============================================================================
 name: CI/CD
 
 on:

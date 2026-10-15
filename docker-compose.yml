@@ -7,7 +7,7 @@
 #  - Chạy:  docker compose --env-file student.env up -d --build
 # =============================================================================
 name: ${COMPOSE_PROJECT_NAME:?Chua dien COMPOSE_PROJECT_NAME trong student.env}
-
+#name : lephuonglinh-de001
 services:
   # ---------------------------------------------------------------- MySQL (CÓ SẴN)
   mysql:
